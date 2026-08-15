@@ -1,0 +1,113 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        } 
+
+        body {
+            background: linear-gradient(135deg, #373b44, #db5b06);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: rgba(233, 227, 227, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(211, 22, 22, 0.3);
+        }
+
+        .profile  {
+            text-align: center;
+            margin-top: 20px;
+        }
+         
+        .profile img{
+            border-radius: 50%;
+            height: 130px;
+            width: 130px;
+            border: 5px solid #1a1131 ;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .profile h1 {
+            font-size: 28px;
+            color:rgba(189, 31, 31, 0.705);
+        }
+        
+        .profile p{
+            font-size: 13px;
+            color: :rgba(189, 31, 31, 0.705);
+        }
+
+        .biodata{ 
+            margin-top: 20px;
+        }
+
+        .bio{
+            display: flex;
+            padding: 12px 0;
+            border-bottom: 1px solid #2c0505;
+        }
+
+        .bio:last-child{
+            border-bottom: none;
+        }
+
+         .pertama{
+            width: 40%;
+            font-weight: bold;
+            color: #160f08;
+        }
+        
+        .kedua {
+            width: 60%;
+            color: #333;
+        }
+        .tentang{
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .tentang h2 {
+            color: #2c1a06;
+            margin-bottom: 5px;
+        }
+
+        .tentang p{
+            line-height: 1,5;
+            color: #373b44;
+            text-align: center;
+        }
+
+        .medsos {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .medsos h2{
+            color: #010201;
+            margin-top: 20px;
+        }
+
+        .medsos a {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 15px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+          .medsos a:hover {
+            background: #1d4ed8;
+            transform: scale(1.05);
+        }
